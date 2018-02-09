@@ -9,6 +9,6 @@ console.log(a, b)
 
 const c = 5
 
-//c = 10 - gera erro
+//c = 10 - gera erro, pois isso não é variável, é CONSTANTE
 
 console.log(c)
