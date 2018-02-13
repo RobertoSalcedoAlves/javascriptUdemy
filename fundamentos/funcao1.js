@@ -18,4 +18,4 @@ function soma(a, b = 1){ //um valor padrão é estabelecido para quando não inf
 
 console.log(soma(2, 3))
 console.log(soma(2))
-console.log(soma()) // ERRO ! - soma de valor "undefined"
+console.log(soma()) // SEM ERRO ! - soma de valor "undefined" - retorna NaN
