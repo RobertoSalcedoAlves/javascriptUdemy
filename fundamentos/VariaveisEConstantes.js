@@ -2,8 +2,8 @@ var a = 3
 let b = 4
 
 var a = 30 //aceita redeclarar, mas não é necessário
-// let b = 40 essa instrução gera erro 
-b = 40 // let NÃO aceita redeclarar
+// let b = let NÃO aceita redeclarar - ERRO! 
+b = 40 // 
 
 console.log(a, b)
 

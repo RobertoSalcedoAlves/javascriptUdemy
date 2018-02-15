@@ -1,4 +1,4 @@
-//HOISTING - o comportamento normal do javascript em LEVAR AO TOPOS as variáveis VAR.
+//HOISTING (IÇAMENTO) - o comportamento normal do javascript em LEVAR AO TOPOS as variáveis VAR.
 // seja ao topo do escopo global, seja ao todo do escopo da função.
 
 console.log('a = ' + a)

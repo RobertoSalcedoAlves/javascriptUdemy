@@ -25,7 +25,7 @@ console.log(!!(isAtivo = false)) // não testa se a operação de certo, apneas 
 console.log(!!(isAtivo = 0)) // o valor da atribuição e considerado falso
 
 console.log('pra finalizar...')
-console.log('' || null || 0 || NaN || ' ') // testa se alguma dos elementos é considerado true.
+console.log('' || null || 0 || NaN || ' ') // OPERADOR LÓGICO "OU" - testa se algum dos elementos é considerado true.
 console.log('' || null || 0 || NaN || 'teste') // apresenta elemento true testado.
 console.log('' || null || 0 || NaN || 123 || 'teste') // apresenta somente o primeiro elemento true testado.
 

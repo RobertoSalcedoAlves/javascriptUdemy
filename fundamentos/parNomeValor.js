@@ -24,3 +24,5 @@
     console.log(saudacao)
     console.log(exec())
     console.log(Estudante.nome)
+    console.log(Estudante.endereco)
+    console.log(Estudante.endereco.rua)
