@@ -1,3 +1,4 @@
+
 console.log(7 / 0)// DIVISÃO POR ZERO - infinito - não gera erro
 console.log("10.1" / 2)// Incrivelmente Funciona, mas não pode haver vírgula. Ponto sim.
 //console.log("show!" * 2)// não funciona nesta linguagem

@@ -8,7 +8,7 @@ imprimirSoma(2) // SEM ERRO - tenta somar o número indicado com um "undefined" 
 imprimirSoma(2, 3, 4, 5, 6, 7, 8) // SEM ERRO - funciona. Simplesmente ignora o excesso de parâmetros
 imprimirSoma() // SEM ERRO - retorna NaN
 imprimirSoma('vo', 'vó') // Concatena
-imprimirSoma('2', 1) // tenta somar, senão concatena.
+imprimirSoma('2', 1) // Concatena, pois '2' é um string e o operador '+' é conhecido pelas funções String.
 imprimirSoma(7, 'estrelo') // Concatena
 
 // Funcao com retorno

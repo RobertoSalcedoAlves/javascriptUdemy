@@ -7,7 +7,6 @@ console.log('a = ' + a)
 
 
 // LET - evita o hoisting, que pode ser considerado um comportamento indesejado
-console.log('b = ' + b)
+console.log('b = ' + b) //como a variável b não existe ainda, gera ERRO!!!
 let b = 3
 console.log('b = ' + b)
-

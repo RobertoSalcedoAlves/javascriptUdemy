@@ -7,7 +7,7 @@ valores[4] = 10 // o array não tem tamanho fixo, pode aumentar ou diminuir conf
 console.log(valores)
 console.log('Tamanho atual do array:' + valores.length) // identificar o tamanho do array
 
-valores.push({id: 3}, false, null, 'teste') // acrescenta novos valores ao array. Observe a tipagem fraca, onde são aceitos valores de tipos deversos no mesmo array
+valores.push({id: 3}, false, null, 'teste') // acrescenta novos valores ao array. Observe a tipagem fraca, onde são aceitos valores de tipos diversos no mesmo array
 console.log('Tamanho atual do array:' + valores.length)
 console.log(valores)
 

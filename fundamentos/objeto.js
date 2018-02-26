@@ -11,3 +11,9 @@ const prod2 = { // aqui o objeto já é arquitetado quando declarado, com seus r
 }
 
 console.log(prod2)
+
+const prod3 = {}
+prod3['descricao'] = 'vassoura'
+prod3['preco'] = 10.00
+
+console.log(prod3)
